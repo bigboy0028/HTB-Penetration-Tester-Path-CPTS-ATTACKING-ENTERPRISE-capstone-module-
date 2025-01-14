@@ -1,0 +1,1 @@
+Use EyeWitness to efficiently screenshot and analyze 11 subdomains/vhosts, streamlining web app enumeration for a large scope. Automation boosts speed and efficiency, but always verify your tools to avoid missed findings.

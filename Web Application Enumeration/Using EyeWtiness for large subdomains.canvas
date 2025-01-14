@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"51de1acd94a25df6","type":"text","text":"Bigboy0028@htb[/htb]$ cat ilfreight_subdomains\n\ninlanefreight.local \nblog.inlanefreight.local \ncareers.inlanefreight.local \ndev.inlanefreight.local \ngitlab.inlanefreight.local \nir.inlanefreight.local \nstatus.inlanefreight.local \nsupport.inlanefreight.local \ntracking.inlanefreight.local \nvpn.inlanefreight.local\nmonitoring.inlanefreight.local","x":-1080,"y":-120,"width":385,"height":490},
+		{"id":"3d78102c5593bd69","type":"text","text":"The quickest and most efficient way to get through a bunch of web applications is using a tool such as [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) to take screenshots of each web application","x":-640,"y":79,"width":588,"height":93},
+		{"id":"c85c6998a817754a","type":"text","text":"We can feed EyeWitness an Nmap .xml file or a Nessus scan, which is useful when we have a large scope with many open ports, which can often be the case during an Internal Penetration Test. In our case, we'll just use the `-f` flag to give it the list of subdomains in a text file we enumerated earlier.","x":-656,"y":240,"width":620,"height":120},
+		{"id":"0a03e08b45661f94","type":"file","file":"Pasted image 20250106144453.png","x":120,"y":106,"width":825,"height":389},
+		{"id":"5f8ad338de6c77d5","type":"file","file":"Pasted image 20250106144607.png","x":120,"y":600,"width":825,"height":489}
+	],
+	"edges":[
+		{"id":"bcd86bcc72de47fa","fromNode":"51de1acd94a25df6","fromSide":"right","toNode":"3d78102c5593bd69","toSide":"left"},
+		{"id":"5c7e3435162db67c","fromNode":"3d78102c5593bd69","fromSide":"bottom","toNode":"c85c6998a817754a","toSide":"top"},
+		{"id":"933fd5efac08a18c","fromNode":"c85c6998a817754a","fromSide":"right","toNode":"0a03e08b45661f94","toSide":"left"},
+		{"id":"94905bbe87632f7e","fromNode":"0a03e08b45661f94","fromSide":"bottom","toNode":"5f8ad338de6c77d5","toSide":"top"}
+	]
+}
